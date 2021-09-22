@@ -41,6 +41,7 @@ main #component-container #text-container p{
     font-size: small;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 main #component-container #text-container ul{
     display: flex;
@@ -57,6 +58,7 @@ main #component-container #text-container ul li .data{
     font-size: medium;
     font-family: 'Noto Sans', sans-serif;
     font-weight: normal;
+    color:  hsla(0, 0%, 100%, 0.6);
 }
 main #component-container #image-container{
     height: 400px;
