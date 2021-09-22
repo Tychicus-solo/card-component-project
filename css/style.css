@@ -1,0 +1,75 @@
+*,html,body{
+    padding:0 ;
+    marign: 0;
+}
+body{
+    background-color: #261C2C;
+}
+main #component-container{
+    height: 400px;
+    width: 70%;
+    
+    display: flex;
+    justify-content: center;
+
+    padding-top: 100px;
+    margin: auto;
+}
+main #component-container #text-container{
+    height: 400px;
+    width: 50%;
+
+    background-color: #11052C;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+
+    padding-left: 60px;
+    
+}
+main #component-container #text-container h1{
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+main #component-container #text-container h1 #text-color{
+    color: #8236CB;
+}
+main #component-container #text-container p{
+    padding-right: 40px;
+    font-size: small;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+main #component-container #text-container ul{
+    display: flex;
+    padding-top: 30px;
+}
+main #component-container #text-container ul li{
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+main #component-container #text-container ul li .data{
+    font-size: medium;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+}
+main #component-container #image-container{
+    height: 400px;
+    width: 50%;
+
+    background-image: url('../image\ header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: purple;
+    background-blend-mode: multiply;
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;    
+}
+
